@@ -7,13 +7,13 @@
   "inbounds": [
     {
       "listen": "0.0.0.0",
-      "port": 1011,
+      "port": 1110,
       "protocol": "http",
       "settings": {}
     },
     {
       "listen": "0.0.0.0",
-      "port": 1012,
+      "port": 1210,
       "protocol": "shadowsocks",
       "settings": {
         "method": "aes-128-gcm",
@@ -23,7 +23,7 @@
     },
     {
       "listen": "0.0.0.0",
-      "port": 1013,
+      "port": 1310,
       "protocol": "vmess",
       "settings": {
         "clients": [
@@ -43,7 +43,7 @@
       "vnext": [
         {
           "address": "<UPSTREAM-SERVER-IP>",
-          "port": 1013,
+          "port": 1310,
           "users": [
             {
               "id": "<UPSTREAM-UUID>",
